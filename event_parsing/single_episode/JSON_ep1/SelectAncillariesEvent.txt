@@ -1,0 +1,84 @@
+{
+	"BookingId": "09de73ee-f8dc-427d-94f1-73ffb427bcba",
+	"Insurance": {
+		"Code": "1961201432045287542",
+		"Price": 34.64,
+		"Name": "Seguro de Anulación"
+	},
+	"IsCheckInExpressSelected": false,
+	"Journeys": [
+		{
+			"Index": 0,
+			"DepartureCityCode": "MAD",
+			"ArrivalCityCode": "SVQ",
+			"PassengerBaggages": [
+				{
+					"PassengerIndex": 0,
+					"Quantity": 1,
+					"Price": 15,
+					"Discount": 0
+				}
+			],
+			"Segments": [
+				{
+					"DepartureAirportCode": "MAD",
+					"ArrivalAirportCode": "SVQ",
+					"DepartureDate": "2018-05-26T07:25:00",
+					"PassengerSeats": [
+						{
+							"Index": 0,
+							"SeatCode": "17D",
+							"SeatType": "Standard",
+							"Price": 5
+						},
+						{
+							"Index": 1,
+							"SeatCode": "17E",
+							"SeatType": "Standard",
+							"Price": 4
+						}
+					]
+				}
+			]
+		},
+		{
+			"Index": 1,
+			"DepartureCityCode": "SVQ",
+			"ArrivalCityCode": "MAD",
+			"PassengerBaggages": [
+				{
+					"PassengerIndex": 0,
+					"Quantity": 1,
+					"Price": 15,
+					"Discount": 0
+				}
+			],
+			"Segments": [
+				{
+					"DepartureAirportCode": "SVQ",
+					"ArrivalAirportCode": "MAD",
+					"DepartureDate": "2018-05-31T09:05:00",
+					"PassengerSeats": [
+						{
+							"Index": 0,
+							"SeatCode": "23E",
+							"SeatType": "Standard",
+							"Price": 4
+						},
+						{
+							"Index": 1,
+							"SeatCode": "23D",
+							"SeatType": "Standard",
+							"Price": 5
+						}
+					]
+				}
+			]
+		}
+	],
+	"ExceptionType": null,
+	"ExceptionMessage": null,
+	"Guid": "d88ce51e-e57f-4a92-b81e-6a100cce3929",
+	"UtcTimeStamp": "2018-05-16T09:38:38.1595858Z",
+	"TimeElapsedMilliseconds": 2863
+}

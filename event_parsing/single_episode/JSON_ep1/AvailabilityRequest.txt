@@ -1,0 +1,57 @@
+{
+	"ApplicationId": "BookingATF",
+	"RequestId": "5cadcabd-f1be-410a-a9ec-d7c24bdce3cc",
+	"PassengerTypes": [
+		{
+			"PassengerTypeCode": "ADT",
+			"Count": 2
+		}
+	],
+	"Discounts": [
+		{
+			"DiscountCode": "CLUBEXPRESS:CLUBEXPRESS"
+		}
+	],
+	"Journeys": [
+		{
+			"OriginIATACityCode": "MAD",
+			"DestinationIATACityCode": "SVQ",
+			"Date": "2018-05-26T00:00:00",
+			"MaxStops": null,
+			"MaxConnectionDurationInMinutes": null,
+			"DepartureEarliestTime": null,
+			"DepartureLatestTime": null
+		},
+		{
+			"OriginIATACityCode": "SVQ",
+			"DestinationIATACityCode": "MAD",
+			"Date": "2018-05-31T00:00:00",
+			"MaxStops": null,
+			"MaxConnectionDurationInMinutes": null,
+			"DepartureEarliestTime": null,
+			"DepartureLatestTime": null
+		}
+	],
+	"Username": "jose.garcia@birchmangroup.com",
+	"SaleCountry": "es",
+	"CurrencyCode": "EUR",
+	"MaxPrice": null,
+	"AllowedCarriers": [
+		{
+			"Code": "I2"
+		},
+		{
+			"Code": "IB"
+		},
+		{
+			"Code": "YW"
+		},
+		{
+			"Code": "BA"
+		}
+	],
+	"ForbiddenCarriers": [],
+	"Guid": "aafd232e-99cb-4a18-9eaf-4c003cea1035",
+	"UtcTimeStamp": "2018-05-16T09:04:06.9480045Z",
+	"TimeElapsedMilliseconds": 0
+}

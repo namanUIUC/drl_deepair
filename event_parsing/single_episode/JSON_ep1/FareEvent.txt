@@ -1,0 +1,70 @@
+{
+	"RequestId": "5cadcabd-f1be-410a-a9ec-d7c24bdce3cc",
+	"BookingId": "09de73ee-f8dc-427d-94f1-73ffb427bcba",
+	"CurrencyCode": "EUR",
+	"IsOnHoldAllowed": true,
+	"Journey": [
+		{
+			"DepartureCityCode": "MAD",
+			"ArrivalCityCode": "SVQ",
+			"DepartureDate": "2018-05-26T07:25:00",
+			"ArrivalDate": "2018-05-26T08:30:00",
+			"FareClass": "SDENNA4K",
+			"FareFamilyCode": "TBAESES",
+			"Price": {
+				"TotalPrice": 174,
+				"TotalTaxes": 42.74,
+				"PricesByPassengerType": [
+					{
+						"PassengerType": "ADT",
+						"TotalPrice": 174,
+						"Price": 87,
+						"Taxes": 21.37,
+						"TotalTaxes": 42.74,
+						"TotalPassengers": 2
+					}
+				]
+			},
+			"Segments": [
+				{
+					"OperatorAirLine": "I2",
+					"FlightId": "3954"
+				}
+			]
+		},
+		{
+			"DepartureCityCode": "SVQ",
+			"ArrivalCityCode": "MAD",
+			"DepartureDate": "2018-05-31T09:05:00",
+			"ArrivalDate": "2018-05-31T10:10:00",
+			"FareClass": "SDENNA4K",
+			"FareFamilyCode": "TBAESES",
+			"Price": {
+				"TotalPrice": 172,
+				"TotalTaxes": 21.78,
+				"PricesByPassengerType": [
+					{
+						"PassengerType": "ADT",
+						"TotalPrice": 172,
+						"Price": 86,
+						"Taxes": 10.89,
+						"TotalTaxes": 21.78,
+						"TotalPassengers": 2
+					}
+				]
+			},
+			"Segments": [
+				{
+					"OperatorAirLine": "I2",
+					"FlightId": "3947"
+				}
+			]
+		}
+	],
+	"BookingEngineType": "BFM",
+	"ExceptionType": null,
+	"ExceptionMessage": null,
+	"Guid": "5917bab2-767a-431a-8cdb-fbf7924fede5",
+	"UtcTimeStamp": "2018-05-16T09:04:29.5412204Z",
+	"TimeElapsedMilliseconds": 1898
+}

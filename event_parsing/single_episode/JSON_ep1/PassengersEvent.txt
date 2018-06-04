@@ -1,0 +1,53 @@
+{
+	"BookingId": "09de73ee-f8dc-427d-94f1-73ffb427bcba",
+	"PNR": "KVIGY2",
+	"Contact": {
+		"Email": "test@test.com",
+		"Name": "test",
+		"Surname": "test",
+		"SecondSurname": null,
+		"Phone": {
+			"Number": "6666666",
+			"Prefix": null
+		}
+	},
+	"Passengers": [
+		{
+			"PaxIndex": 0,
+			"Type": "ADT",
+			"Name": "test",
+			"Surname": "test",
+			"SecondSurname": null,
+			"Title": "",
+			"BirthDate": null,
+			"TravelsWith": null,
+			"DocumentType": null,
+			"DocumentNumber": null,
+			"Resident": null,
+			"LargeFamily": null,
+			"SpecialNeeds": null,
+			"FrequentFlyer": null
+		},
+		{
+			"PaxIndex": 1,
+			"Type": "ADT",
+			"Name": "testb",
+			"Surname": "testb",
+			"SecondSurname": null,
+			"Title": "",
+			"BirthDate": null,
+			"TravelsWith": null,
+			"DocumentType": "",
+			"DocumentNumber": null,
+			"Resident": null,
+			"LargeFamily": null,
+			"SpecialNeeds": null,
+			"FrequentFlyer": null
+		}
+	],
+	"ExceptionType": null,
+	"ExceptionMessage": null,
+	"Guid": "faf09999-22d0-4d1b-80e7-d9ca7eb14ce6",
+	"UtcTimeStamp": "2018-05-16T09:35:40.7320935Z",
+	"TimeElapsedMilliseconds": 4893
+}
