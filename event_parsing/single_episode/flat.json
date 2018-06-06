@@ -1,0 +1,1817 @@
+{
+  "AvailabilityRequest_Discounts": [
+    {
+      "DiscountCode": "CLUBEXPRESS:CLUBEXPRESS"
+    }
+  ],
+  "AvailabilityRequest_Guid": "aafd232e-99cb-4a18-9eaf-4c003cea1035",
+  "AvailabilityRequest_TimeElapsedMilliseconds": 0,
+  "AvailabilityRequest_Journeys": [
+    {
+      "Date": "2018-05-26T00:00:00",
+      "MaxConnectionDurationInMinutes": null,
+      "OriginIATACityCode": "MAD",
+      "DepartureLatestTime": null,
+      "DestinationIATACityCode": "SVQ",
+      "MaxStops": null,
+      "DepartureEarliestTime": null
+    },
+    {
+      "Date": "2018-05-31T00:00:00",
+      "MaxConnectionDurationInMinutes": null,
+      "OriginIATACityCode": "SVQ",
+      "DepartureLatestTime": null,
+      "DestinationIATACityCode": "MAD",
+      "MaxStops": null,
+      "DepartureEarliestTime": null
+    }
+  ],
+  "AvailabilityRequest_ApplicationId": "BookingATF",
+  "AvailabilityRequest_AllowedCarriers": [
+    {
+      "Code": "I2"
+    },
+    {
+      "Code": "IB"
+    },
+    {
+      "Code": "YW"
+    },
+    {
+      "Code": "BA"
+    }
+  ],
+  "AvailabilityRequest_Username": "jose.garcia@birchmangroup.com",
+  "AvailabilityRequest_PassengerTypes": [
+    {
+      "PassengerTypeCode": "ADT",
+      "Count": 2
+    }
+  ],
+  "AvailabilityRequest_ForbiddenCarriers": [],
+  "AvailabilityRequest_SaleCountry": "es",
+  "AvailabilityRequest_UtcTimeStamp": "2018-05-16T09:04:06.9480045Z",
+  "AvailabilityRequest_RequestId": "5cadcabd-f1be-410a-a9ec-d7c24bdce3cc",
+  "AvailabilityRequest_CurrencyCode": "EUR",
+  "AvailabilityRequest_MaxPrice": null
+,
+  "AvailabilityResponse_TimeElapsedMilliseconds": 6100,
+  "AvailabilityResponse_ErrorMessage": null,
+  "AvailabilityResponse_Journeys": [
+    {
+      "DepartureAirport": "MAD",
+      "Index": 0,
+      "ArrivalAirport": "SVQ",
+      "ArrivalCityCode": "SVQ",
+      "DepartureCityCode": "MAD",
+      "Segments": [
+        {
+          "DepartureAirport": "MAD",
+          "ArrivalAirport": "SVQ",
+          "OperatorAirline": "I2",
+          "FlightNumber": "3954",
+          "DepartureDate": "2018-05-26T07:25:00",
+          "ArrivalDate": "2018-05-26T08:30:00"
+        }
+      ],
+      "Fares": [
+        {
+          "SeatsAvailable": 9,
+          "PricesByPassengerType": [
+            {
+              "TotalPassengers": 2,
+              "Taxes": 21.37,
+              "PassengerType": {
+                "Code": "ADT"
+              },
+              "Price": 87
+            }
+          ],
+          "FareClass": "SDENNA4K",
+          "FareFamily": "TBAESES",
+          "TotalTaxes": 42.74,
+          "TotalPrice": 174,
+          "FareDiscounts": [],
+          "RBD": "S",
+          "FareGroup": "Express"
+        },
+        {
+          "SeatsAvailable": 9,
+          "PricesByPassengerType": [
+            {
+              "TotalPassengers": 2,
+              "Taxes": 21.37,
+              "PassengerType": {
+                "Code": "ADT"
+              },
+              "Price": 102
+            }
+          ],
+          "FareClass": "SDENNA",
+          "FareFamily": "TCLESES",
+          "TotalTaxes": 42.74,
+          "TotalPrice": 204,
+          "FareDiscounts": [],
+          "RBD": "S",
+          "FareGroup": "Classic"
+        },
+        {
+          "SeatsAvailable": 2,
+          "PricesByPassengerType": [
+            {
+              "TotalPassengers": 2,
+              "Taxes": 21.37,
+              "PassengerType": {
+                "Code": "ADT"
+              },
+              "Price": 153
+            }
+          ],
+          "FareClass": "IDE7RA",
+          "FareFamily": "BSFESPT",
+          "TotalTaxes": 42.74,
+          "TotalPrice": 306,
+          "FareDiscounts": [],
+          "RBD": "I",
+          "FareGroup": "BusinessExpress"
+        },
+        {
+          "SeatsAvailable": 9,
+          "PricesByPassengerType": [
+            {
+              "TotalPassengers": 2,
+              "Taxes": 21.37,
+              "PassengerType": {
+                "Code": "ADT"
+              },
+              "Price": 209
+            }
+          ],
+          "FareClass": "KDENNA",
+          "FareFamily": "TFLESES",
+          "TotalTaxes": 42.74,
+          "TotalPrice": 418,
+          "FareDiscounts": [],
+          "RBD": "K",
+          "FareGroup": "Flex"
+        },
+        {
+          "SeatsAvailable": 9,
+          "PricesByPassengerType": [
+            {
+              "TotalPassengers": 2,
+              "Taxes": 21.37,
+              "PassengerType": {
+                "Code": "ADT"
+              },
+              "Price": 259
+            }
+          ],
+          "FareClass": "BDENNA",
+          "FareFamily": "TFLECOM",
+          "TotalTaxes": 42.74,
+          "TotalPrice": 518,
+          "FareDiscounts": [],
+          "RBD": "B",
+          "FareGroup": "Flex"
+        },
+        {
+          "SeatsAvailable": 3,
+          "PricesByPassengerType": [
+            {
+              "TotalPassengers": 2,
+              "Taxes": 21.37,
+              "PassengerType": {
+                "Code": "ADT"
+              },
+              "Price": 334
+            }
+          ],
+          "FareClass": "DDENNA",
+          "FareFamily": "BSFECOM",
+          "TotalTaxes": 42.74,
+          "TotalPrice": 668,
+          "FareDiscounts": [],
+          "RBD": "D",
+          "FareGroup": "Business"
+        },
+        {
+          "SeatsAvailable": 9,
+          "PricesByPassengerType": [
+            {
+              "TotalPassengers": 2,
+              "Taxes": 19.233,
+              "PassengerType": {
+                "Code": "ADT"
+              },
+              "Price": 78.3
+            }
+          ],
+          "FareClass": "SDENNA4K:CLUBEXPRESS:CLUBEXPRESS",
+          "FareFamily": "TBAESES",
+          "TotalTaxes": 38.466,
+          "TotalPrice": 156.6,
+          "FareDiscounts": [],
+          "RBD": "S",
+          "FareGroup": "Express"
+        },
+        {
+          "SeatsAvailable": 9,
+          "PricesByPassengerType": [
+            {
+              "TotalPassengers": 2,
+              "Taxes": 20.3015,
+              "PassengerType": {
+                "Code": "ADT"
+              },
+              "Price": 96.9
+            }
+          ],
+          "FareClass": "SDENNA:CLUBEXPRESS:CLUBEXPRESS",
+          "FareFamily": "TCLESES",
+          "TotalTaxes": 40.603,
+          "TotalPrice": 193.8,
+          "FareDiscounts": [],
+          "RBD": "S",
+          "FareGroup": "Classic"
+        },
+        {
+          "SeatsAvailable": 2,
+          "PricesByPassengerType": [
+            {
+              "TotalPassengers": 2,
+              "Taxes": 17.096,
+              "PassengerType": {
+                "Code": "ADT"
+              },
+              "Price": 122.4
+            }
+          ],
+          "FareClass": "IDE7RA:CLUBEXPRESS:CLUBEXPRESS",
+          "FareFamily": "BSFESPT",
+          "TotalTaxes": 34.192,
+          "TotalPrice": 244.8,
+          "FareDiscounts": [],
+          "RBD": "I",
+          "FareGroup": "BusinessExpress"
+        },
+        {
+          "SeatsAvailable": 9,
+          "PricesByPassengerType": [
+            {
+              "TotalPassengers": 2,
+              "Taxes": 20.3015,
+              "PassengerType": {
+                "Code": "ADT"
+              },
+              "Price": 198.55
+            }
+          ],
+          "FareClass": "KDENNA:CLUBEXPRESS:CLUBEXPRESS",
+          "FareFamily": "TFLESES",
+          "TotalTaxes": 40.603,
+          "TotalPrice": 397.1,
+          "FareDiscounts": [],
+          "RBD": "K",
+          "FareGroup": "Flex"
+        },
+        {
+          "SeatsAvailable": 9,
+          "PricesByPassengerType": [
+            {
+              "TotalPassengers": 2,
+              "Taxes": 20.3015,
+              "PassengerType": {
+                "Code": "ADT"
+              },
+              "Price": 246.05
+            }
+          ],
+          "FareClass": "BDENNA:CLUBEXPRESS:CLUBEXPRESS",
+          "FareFamily": "TFLECOM",
+          "TotalTaxes": 40.603,
+          "TotalPrice": 492.1,
+          "FareDiscounts": [],
+          "RBD": "B",
+          "FareGroup": "Flex"
+        },
+        {
+          "SeatsAvailable": 3,
+          "PricesByPassengerType": [
+            {
+              "TotalPassengers": 2,
+              "Taxes": 17.096,
+              "PassengerType": {
+                "Code": "ADT"
+              },
+              "Price": 267.2
+            }
+          ],
+          "FareClass": "DDENNA:CLUBEXPRESS:CLUBEXPRESS",
+          "FareFamily": "BSFECOM",
+          "TotalTaxes": 34.192,
+          "TotalPrice": 534.4,
+          "FareDiscounts": [],
+          "RBD": "D",
+          "FareGroup": "Business"
+        }
+      ],
+      "DepartureDate": "2018-05-26T07:25:00",
+      "ArrivalDate": "2018-05-26T08:30:00"
+    },
+    {
+      "DepartureAirport": "MAD",
+      "Index": 2,
+      "ArrivalAirport": "SVQ",
+      "ArrivalCityCode": "SVQ",
+      "DepartureCityCode": "MAD",
+      "Segments": [
+        {
+          "DepartureAirport": "MAD",
+          "ArrivalAirport": "SVQ",
+          "OperatorAirline": "I2",
+          "FlightNumber": "3952",
+          "DepartureDate": "2018-05-26T16:00:00",
+          "ArrivalDate": "2018-05-26T17:05:00"
+        }
+      ],
+      "Fares": [
+        {
+          "SeatsAvailable": 9,
+          "PricesByPassengerType": [
+            {
+              "TotalPassengers": 2,
+              "Taxes": 21.37,
+              "PassengerType": {
+                "Code": "ADT"
+              },
+              "Price": 117
+            }
+          ],
+          "FareClass": "LDENNA4K",
+          "FareFamily": "TBAESES",
+          "TotalTaxes": 42.74,
+          "TotalPrice": 234,
+          "FareDiscounts": [],
+          "RBD": "L",
+          "FareGroup": "Express"
+        },
+        {
+          "SeatsAvailable": 9,
+          "PricesByPassengerType": [
+            {
+              "TotalPassengers": 2,
+              "Taxes": 21.37,
+              "PassengerType": {
+                "Code": "ADT"
+              },
+              "Price": 132
+            }
+          ],
+          "FareClass": "LDENNA",
+          "FareFamily": "TCLESES",
+          "TotalTaxes": 42.74,
+          "TotalPrice": 264,
+          "FareDiscounts": [],
+          "RBD": "L",
+          "FareGroup": "Classic"
+        },
+        {
+          "SeatsAvailable": 9,
+          "PricesByPassengerType": [
+            {
+              "TotalPassengers": 2,
+              "Taxes": 21.37,
+              "PassengerType": {
+                "Code": "ADT"
+              },
+              "Price": 209
+            }
+          ],
+          "FareClass": "KDENNA",
+          "FareFamily": "TFLESES",
+          "TotalTaxes": 42.74,
+          "TotalPrice": 418,
+          "FareDiscounts": [],
+          "RBD": "K",
+          "FareGroup": "Flex"
+        },
+        {
+          "SeatsAvailable": 9,
+          "PricesByPassengerType": [
+            {
+              "TotalPassengers": 2,
+              "Taxes": 21.37,
+              "PassengerType": {
+                "Code": "ADT"
+              },
+              "Price": 259
+            }
+          ],
+          "FareClass": "BDENNA",
+          "FareFamily": "TFLECOM",
+          "TotalTaxes": 42.74,
+          "TotalPrice": 518,
+          "FareDiscounts": [],
+          "RBD": "B",
+          "FareGroup": "Flex"
+        },
+        {
+          "SeatsAvailable": 4,
+          "PricesByPassengerType": [
+            {
+              "TotalPassengers": 2,
+              "Taxes": 48.87,
+              "PassengerType": {
+                "Code": "ADT"
+              },
+              "Price": 382
+            }
+          ],
+          "FareClass": "JD",
+          "FareFamily": "BSFECOM",
+          "TotalTaxes": 97.74,
+          "TotalPrice": 764,
+          "FareDiscounts": [],
+          "RBD": "J",
+          "FareGroup": "Business"
+        },
+        {
+          "SeatsAvailable": 9,
+          "PricesByPassengerType": [
+            {
+              "TotalPassengers": 2,
+              "Taxes": 19.233,
+              "PassengerType": {
+                "Code": "ADT"
+              },
+              "Price": 105.3
+            }
+          ],
+          "FareClass": "LDENNA4K:CLUBEXPRESS:CLUBEXPRESS",
+          "FareFamily": "TBAESES",
+          "TotalTaxes": 38.466,
+          "TotalPrice": 210.6,
+          "FareDiscounts": [],
+          "RBD": "L",
+          "FareGroup": "Express"
+        },
+        {
+          "SeatsAvailable": 9,
+          "PricesByPassengerType": [
+            {
+              "TotalPassengers": 2,
+              "Taxes": 20.3015,
+              "PassengerType": {
+                "Code": "ADT"
+              },
+              "Price": 125.4
+            }
+          ],
+          "FareClass": "LDENNA:CLUBEXPRESS:CLUBEXPRESS",
+          "FareFamily": "TCLESES",
+          "TotalTaxes": 40.603,
+          "TotalPrice": 250.8,
+          "FareDiscounts": [],
+          "RBD": "L",
+          "FareGroup": "Classic"
+        },
+        {
+          "SeatsAvailable": 9,
+          "PricesByPassengerType": [
+            {
+              "TotalPassengers": 2,
+              "Taxes": 20.3015,
+              "PassengerType": {
+                "Code": "ADT"
+              },
+              "Price": 198.55
+            }
+          ],
+          "FareClass": "KDENNA:CLUBEXPRESS:CLUBEXPRESS",
+          "FareFamily": "TFLESES",
+          "TotalTaxes": 40.603,
+          "TotalPrice": 397.1,
+          "FareDiscounts": [],
+          "RBD": "K",
+          "FareGroup": "Flex"
+        },
+        {
+          "SeatsAvailable": 9,
+          "PricesByPassengerType": [
+            {
+              "TotalPassengers": 2,
+              "Taxes": 20.3015,
+              "PassengerType": {
+                "Code": "ADT"
+              },
+              "Price": 246.05
+            }
+          ],
+          "FareClass": "BDENNA:CLUBEXPRESS:CLUBEXPRESS",
+          "FareFamily": "TFLECOM",
+          "TotalTaxes": 40.603,
+          "TotalPrice": 492.1,
+          "FareDiscounts": [],
+          "RBD": "B",
+          "FareGroup": "Flex"
+        },
+        {
+          "SeatsAvailable": 4,
+          "PricesByPassengerType": [
+            {
+              "TotalPassengers": 2,
+              "Taxes": 46.4265,
+              "PassengerType": {
+                "Code": "ADT"
+              },
+              "Price": 362.9
+            }
+          ],
+          "FareClass": "JD:CLUBEXPRESS:CLUBEXPRESS",
+          "FareFamily": "BSFECOM",
+          "TotalTaxes": 92.853,
+          "TotalPrice": 725.8,
+          "FareDiscounts": [],
+          "RBD": "J",
+          "FareGroup": "Business"
+        }
+      ],
+      "DepartureDate": "2018-05-26T16:00:00",
+      "ArrivalDate": "2018-05-26T17:05:00"
+    },
+    {
+      "DepartureAirport": "MAD",
+      "Index": 1,
+      "ArrivalAirport": "SVQ",
+      "ArrivalCityCode": "SVQ",
+      "DepartureCityCode": "MAD",
+      "Segments": [
+        {
+          "DepartureAirport": "MAD",
+          "ArrivalAirport": "SVQ",
+          "OperatorAirline": "I2",
+          "FlightNumber": "3948",
+          "DepartureDate": "2018-05-26T19:40:00",
+          "ArrivalDate": "2018-05-26T20:45:00"
+        }
+      ],
+      "Fares": [
+        {
+          "SeatsAvailable": 9,
+          "PricesByPassengerType": [
+            {
+              "TotalPassengers": 2,
+              "Taxes": 21.37,
+              "PassengerType": {
+                "Code": "ADT"
+              },
+              "Price": 97
+            }
+          ],
+          "FareClass": "VDENNA4K",
+          "FareFamily": "TBAESES",
+          "TotalTaxes": 42.74,
+          "TotalPrice": 194,
+          "FareDiscounts": [],
+          "RBD": "V",
+          "FareGroup": "Express"
+        },
+        {
+          "SeatsAvailable": 9,
+          "PricesByPassengerType": [
+            {
+              "TotalPassengers": 2,
+              "Taxes": 21.37,
+              "PassengerType": {
+                "Code": "ADT"
+              },
+              "Price": 112
+            }
+          ],
+          "FareClass": "VDENNA",
+          "FareFamily": "TCLESES",
+          "TotalTaxes": 42.74,
+          "TotalPrice": 224,
+          "FareDiscounts": [],
+          "RBD": "V",
+          "FareGroup": "Classic"
+        },
+        {
+          "SeatsAvailable": 9,
+          "PricesByPassengerType": [
+            {
+              "TotalPassengers": 2,
+              "Taxes": 21.37,
+              "PassengerType": {
+                "Code": "ADT"
+              },
+              "Price": 209
+            }
+          ],
+          "FareClass": "KDENNA",
+          "FareFamily": "TFLESES",
+          "TotalTaxes": 42.74,
+          "TotalPrice": 418,
+          "FareDiscounts": [],
+          "RBD": "K",
+          "FareGroup": "Flex"
+        },
+        {
+          "SeatsAvailable": 9,
+          "PricesByPassengerType": [
+            {
+              "TotalPassengers": 2,
+              "Taxes": 21.37,
+              "PassengerType": {
+                "Code": "ADT"
+              },
+              "Price": 259
+            }
+          ],
+          "FareClass": "BDENNA",
+          "FareFamily": "TFLECOM",
+          "TotalTaxes": 42.74,
+          "TotalPrice": 518,
+          "FareDiscounts": [],
+          "RBD": "B",
+          "FareGroup": "Flex"
+        },
+        {
+          "SeatsAvailable": 3,
+          "PricesByPassengerType": [
+            {
+              "TotalPassengers": 2,
+              "Taxes": 48.87,
+              "PassengerType": {
+                "Code": "ADT"
+              },
+              "Price": 382
+            }
+          ],
+          "FareClass": "JD",
+          "FareFamily": "BSFECOM",
+          "TotalTaxes": 97.74,
+          "TotalPrice": 764,
+          "FareDiscounts": [],
+          "RBD": "J",
+          "FareGroup": "Business"
+        },
+        {
+          "SeatsAvailable": 9,
+          "PricesByPassengerType": [
+            {
+              "TotalPassengers": 2,
+              "Taxes": 19.233,
+              "PassengerType": {
+                "Code": "ADT"
+              },
+              "Price": 87.3
+            }
+          ],
+          "FareClass": "VDENNA4K:CLUBEXPRESS:CLUBEXPRESS",
+          "FareFamily": "TBAESES",
+          "TotalTaxes": 38.466,
+          "TotalPrice": 174.6,
+          "FareDiscounts": [],
+          "RBD": "V",
+          "FareGroup": "Express"
+        },
+        {
+          "SeatsAvailable": 9,
+          "PricesByPassengerType": [
+            {
+              "TotalPassengers": 2,
+              "Taxes": 20.3015,
+              "PassengerType": {
+                "Code": "ADT"
+              },
+              "Price": 106.4
+            }
+          ],
+          "FareClass": "VDENNA:CLUBEXPRESS:CLUBEXPRESS",
+          "FareFamily": "TCLESES",
+          "TotalTaxes": 40.603,
+          "TotalPrice": 212.8,
+          "FareDiscounts": [],
+          "RBD": "V",
+          "FareGroup": "Classic"
+        },
+        {
+          "SeatsAvailable": 9,
+          "PricesByPassengerType": [
+            {
+              "TotalPassengers": 2,
+              "Taxes": 20.3015,
+              "PassengerType": {
+                "Code": "ADT"
+              },
+              "Price": 198.55
+            }
+          ],
+          "FareClass": "KDENNA:CLUBEXPRESS:CLUBEXPRESS",
+          "FareFamily": "TFLESES",
+          "TotalTaxes": 40.603,
+          "TotalPrice": 397.1,
+          "FareDiscounts": [],
+          "RBD": "K",
+          "FareGroup": "Flex"
+        },
+        {
+          "SeatsAvailable": 9,
+          "PricesByPassengerType": [
+            {
+              "TotalPassengers": 2,
+              "Taxes": 20.3015,
+              "PassengerType": {
+                "Code": "ADT"
+              },
+              "Price": 246.05
+            }
+          ],
+          "FareClass": "BDENNA:CLUBEXPRESS:CLUBEXPRESS",
+          "FareFamily": "TFLECOM",
+          "TotalTaxes": 40.603,
+          "TotalPrice": 492.1,
+          "FareDiscounts": [],
+          "RBD": "B",
+          "FareGroup": "Flex"
+        },
+        {
+          "SeatsAvailable": 3,
+          "PricesByPassengerType": [
+            {
+              "TotalPassengers": 2,
+              "Taxes": 46.4265,
+              "PassengerType": {
+                "Code": "ADT"
+              },
+              "Price": 362.9
+            }
+          ],
+          "FareClass": "JD:CLUBEXPRESS:CLUBEXPRESS",
+          "FareFamily": "BSFECOM",
+          "TotalTaxes": 92.853,
+          "TotalPrice": 725.8,
+          "FareDiscounts": [],
+          "RBD": "J",
+          "FareGroup": "Business"
+        }
+      ],
+      "DepartureDate": "2018-05-26T19:40:00",
+      "ArrivalDate": "2018-05-26T20:45:00"
+    },
+    {
+      "DepartureAirport": "SVQ",
+      "Index": 2,
+      "ArrivalAirport": "MAD",
+      "ArrivalCityCode": "MAD",
+      "DepartureCityCode": "SVQ",
+      "Segments": [
+        {
+          "DepartureAirport": "SVQ",
+          "ArrivalAirport": "MAD",
+          "OperatorAirline": "I2",
+          "FlightNumber": "3947",
+          "DepartureDate": "2018-05-31T09:05:00",
+          "ArrivalDate": "2018-05-31T10:10:00"
+        }
+      ],
+      "Fares": [
+        {
+          "SeatsAvailable": 7,
+          "PricesByPassengerType": [
+            {
+              "TotalPassengers": 2,
+              "Taxes": 10.89,
+              "PassengerType": {
+                "Code": "ADT"
+              },
+              "Price": 86
+            }
+          ],
+          "FareClass": "SDENNA4K",
+          "FareFamily": "TBAESES",
+          "TotalTaxes": 21.78,
+          "TotalPrice": 172,
+          "FareDiscounts": [],
+          "RBD": "S",
+          "FareGroup": "Express"
+        },
+        {
+          "SeatsAvailable": 7,
+          "PricesByPassengerType": [
+            {
+              "TotalPassengers": 2,
+              "Taxes": 10.89,
+              "PassengerType": {
+                "Code": "ADT"
+              },
+              "Price": 101
+            }
+          ],
+          "FareClass": "SDENNA",
+          "FareFamily": "TCLESES",
+          "TotalTaxes": 21.78,
+          "TotalPrice": 202,
+          "FareDiscounts": [],
+          "RBD": "S",
+          "FareGroup": "Classic"
+        },
+        {
+          "SeatsAvailable": 9,
+          "PricesByPassengerType": [
+            {
+              "TotalPassengers": 2,
+              "Taxes": 10.89,
+              "PassengerType": {
+                "Code": "ADT"
+              },
+              "Price": 209
+            }
+          ],
+          "FareClass": "KDENNA",
+          "FareFamily": "TFLESES",
+          "TotalTaxes": 21.78,
+          "TotalPrice": 418,
+          "FareDiscounts": [],
+          "RBD": "K",
+          "FareGroup": "Flex"
+        },
+        {
+          "SeatsAvailable": 9,
+          "PricesByPassengerType": [
+            {
+              "TotalPassengers": 2,
+              "Taxes": 10.89,
+              "PassengerType": {
+                "Code": "ADT"
+              },
+              "Price": 259
+            }
+          ],
+          "FareClass": "BDENNA",
+          "FareFamily": "TFLECOM",
+          "TotalTaxes": 21.78,
+          "TotalPrice": 518,
+          "FareDiscounts": [],
+          "RBD": "B",
+          "FareGroup": "Flex"
+        },
+        {
+          "SeatsAvailable": 2,
+          "PricesByPassengerType": [
+            {
+              "TotalPassengers": 2,
+              "Taxes": 38.39,
+              "PassengerType": {
+                "Code": "ADT"
+              },
+              "Price": 382
+            }
+          ],
+          "FareClass": "JD",
+          "FareFamily": "BSFECOM",
+          "TotalTaxes": 76.78,
+          "TotalPrice": 764,
+          "FareDiscounts": [],
+          "RBD": "J",
+          "FareGroup": "Business"
+        },
+        {
+          "SeatsAvailable": 7,
+          "PricesByPassengerType": [
+            {
+              "TotalPassengers": 2,
+              "Taxes": 8.712,
+              "PassengerType": {
+                "Code": "ADT"
+              },
+              "Price": 68.8
+            }
+          ],
+          "FareClass": "SDENNA4K:CLUBEXPRESS:CLUBEXPRESS",
+          "FareFamily": "TBAESES",
+          "TotalTaxes": 17.424,
+          "TotalPrice": 137.6,
+          "FareDiscounts": [],
+          "RBD": "S",
+          "FareGroup": "Express"
+        },
+        {
+          "SeatsAvailable": 7,
+          "PricesByPassengerType": [
+            {
+              "TotalPassengers": 2,
+              "Taxes": 10.3455,
+              "PassengerType": {
+                "Code": "ADT"
+              },
+              "Price": 95.95
+            }
+          ],
+          "FareClass": "SDENNA:CLUBEXPRESS:CLUBEXPRESS",
+          "FareFamily": "TCLESES",
+          "TotalTaxes": 20.691,
+          "TotalPrice": 191.9,
+          "FareDiscounts": [],
+          "RBD": "S",
+          "FareGroup": "Classic"
+        },
+        {
+          "SeatsAvailable": 9,
+          "PricesByPassengerType": [
+            {
+              "TotalPassengers": 2,
+              "Taxes": 10.3455,
+              "PassengerType": {
+                "Code": "ADT"
+              },
+              "Price": 198.55
+            }
+          ],
+          "FareClass": "KDENNA:CLUBEXPRESS:CLUBEXPRESS",
+          "FareFamily": "TFLESES",
+          "TotalTaxes": 20.691,
+          "TotalPrice": 397.1,
+          "FareDiscounts": [],
+          "RBD": "K",
+          "FareGroup": "Flex"
+        },
+        {
+          "SeatsAvailable": 9,
+          "PricesByPassengerType": [
+            {
+              "TotalPassengers": 2,
+              "Taxes": 10.3455,
+              "PassengerType": {
+                "Code": "ADT"
+              },
+              "Price": 246.05
+            }
+          ],
+          "FareClass": "BDENNA:CLUBEXPRESS:CLUBEXPRESS",
+          "FareFamily": "TFLECOM",
+          "TotalTaxes": 20.691,
+          "TotalPrice": 492.1,
+          "FareDiscounts": [],
+          "RBD": "B",
+          "FareGroup": "Flex"
+        },
+        {
+          "SeatsAvailable": 2,
+          "PricesByPassengerType": [
+            {
+              "TotalPassengers": 2,
+              "Taxes": 36.4705,
+              "PassengerType": {
+                "Code": "ADT"
+              },
+              "Price": 362.9
+            }
+          ],
+          "FareClass": "JD:CLUBEXPRESS:CLUBEXPRESS",
+          "FareFamily": "BSFECOM",
+          "TotalTaxes": 72.941,
+          "TotalPrice": 725.8,
+          "FareDiscounts": [],
+          "RBD": "J",
+          "FareGroup": "Business"
+        }
+      ],
+      "DepartureDate": "2018-05-31T09:05:00",
+      "ArrivalDate": "2018-05-31T10:10:00"
+    },
+    {
+      "DepartureAirport": "SVQ",
+      "Index": 3,
+      "ArrivalAirport": "MAD",
+      "ArrivalCityCode": "MAD",
+      "DepartureCityCode": "SVQ",
+      "Segments": [
+        {
+          "DepartureAirport": "SVQ",
+          "ArrivalAirport": "MAD",
+          "OperatorAirline": "I2",
+          "FlightNumber": "3949",
+          "DepartureDate": "2018-05-31T13:05:00",
+          "ArrivalDate": "2018-05-31T14:15:00"
+        }
+      ],
+      "Fares": [
+        {
+          "SeatsAvailable": 2,
+          "PricesByPassengerType": [
+            {
+              "TotalPassengers": 2,
+              "Taxes": 10.89,
+              "PassengerType": {
+                "Code": "ADT"
+              },
+              "Price": 86
+            }
+          ],
+          "FareClass": "SDENNA4K",
+          "FareFamily": "TBAESES",
+          "TotalTaxes": 21.78,
+          "TotalPrice": 172,
+          "FareDiscounts": [],
+          "RBD": "S",
+          "FareGroup": "Express"
+        },
+        {
+          "SeatsAvailable": 2,
+          "PricesByPassengerType": [
+            {
+              "TotalPassengers": 2,
+              "Taxes": 10.89,
+              "PassengerType": {
+                "Code": "ADT"
+              },
+              "Price": 101
+            }
+          ],
+          "FareClass": "SDENNA",
+          "FareFamily": "TCLESES",
+          "TotalTaxes": 21.78,
+          "TotalPrice": 202,
+          "FareDiscounts": [],
+          "RBD": "S",
+          "FareGroup": "Classic"
+        },
+        {
+          "SeatsAvailable": 2,
+          "PricesByPassengerType": [
+            {
+              "TotalPassengers": 2,
+              "Taxes": 10.89,
+              "PassengerType": {
+                "Code": "ADT"
+              },
+              "Price": 153
+            }
+          ],
+          "FareClass": "IDE7RA",
+          "FareFamily": "BSFESPT",
+          "TotalTaxes": 21.78,
+          "TotalPrice": 306,
+          "FareDiscounts": [],
+          "RBD": "I",
+          "FareGroup": "BusinessExpress"
+        },
+        {
+          "SeatsAvailable": 9,
+          "PricesByPassengerType": [
+            {
+              "TotalPassengers": 2,
+              "Taxes": 10.89,
+              "PassengerType": {
+                "Code": "ADT"
+              },
+              "Price": 209
+            }
+          ],
+          "FareClass": "KDENNA",
+          "FareFamily": "TFLESES",
+          "TotalTaxes": 21.78,
+          "TotalPrice": 418,
+          "FareDiscounts": [],
+          "RBD": "K",
+          "FareGroup": "Flex"
+        },
+        {
+          "SeatsAvailable": 9,
+          "PricesByPassengerType": [
+            {
+              "TotalPassengers": 2,
+              "Taxes": 10.89,
+              "PassengerType": {
+                "Code": "ADT"
+              },
+              "Price": 259
+            }
+          ],
+          "FareClass": "BDENNA",
+          "FareFamily": "TFLECOM",
+          "TotalTaxes": 21.78,
+          "TotalPrice": 518,
+          "FareDiscounts": [],
+          "RBD": "B",
+          "FareGroup": "Flex"
+        },
+        {
+          "SeatsAvailable": 3,
+          "PricesByPassengerType": [
+            {
+              "TotalPassengers": 2,
+              "Taxes": 10.89,
+              "PassengerType": {
+                "Code": "ADT"
+              },
+              "Price": 333
+            }
+          ],
+          "FareClass": "DDENNA",
+          "FareFamily": "BSFECOM",
+          "TotalTaxes": 21.78,
+          "TotalPrice": 666,
+          "FareDiscounts": [],
+          "RBD": "D",
+          "FareGroup": "Business"
+        },
+        {
+          "SeatsAvailable": 2,
+          "PricesByPassengerType": [
+            {
+              "TotalPassengers": 2,
+              "Taxes": 8.712,
+              "PassengerType": {
+                "Code": "ADT"
+              },
+              "Price": 68.8
+            }
+          ],
+          "FareClass": "SDENNA4K:CLUBEXPRESS:CLUBEXPRESS",
+          "FareFamily": "TBAESES",
+          "TotalTaxes": 17.424,
+          "TotalPrice": 137.6,
+          "FareDiscounts": [],
+          "RBD": "S",
+          "FareGroup": "Express"
+        },
+        {
+          "SeatsAvailable": 2,
+          "PricesByPassengerType": [
+            {
+              "TotalPassengers": 2,
+              "Taxes": 10.3455,
+              "PassengerType": {
+                "Code": "ADT"
+              },
+              "Price": 95.95
+            }
+          ],
+          "FareClass": "SDENNA:CLUBEXPRESS:CLUBEXPRESS",
+          "FareFamily": "TCLESES",
+          "TotalTaxes": 20.691,
+          "TotalPrice": 191.9,
+          "FareDiscounts": [],
+          "RBD": "S",
+          "FareGroup": "Classic"
+        },
+        {
+          "SeatsAvailable": 2,
+          "PricesByPassengerType": [
+            {
+              "TotalPassengers": 2,
+              "Taxes": 8.712,
+              "PassengerType": {
+                "Code": "ADT"
+              },
+              "Price": 122.4
+            }
+          ],
+          "FareClass": "IDE7RA:CLUBEXPRESS:CLUBEXPRESS",
+          "FareFamily": "BSFESPT",
+          "TotalTaxes": 17.424,
+          "TotalPrice": 244.8,
+          "FareDiscounts": [],
+          "RBD": "I",
+          "FareGroup": "BusinessExpress"
+        },
+        {
+          "SeatsAvailable": 9,
+          "PricesByPassengerType": [
+            {
+              "TotalPassengers": 2,
+              "Taxes": 10.3455,
+              "PassengerType": {
+                "Code": "ADT"
+              },
+              "Price": 198.55
+            }
+          ],
+          "FareClass": "KDENNA:CLUBEXPRESS:CLUBEXPRESS",
+          "FareFamily": "TFLESES",
+          "TotalTaxes": 20.691,
+          "TotalPrice": 397.1,
+          "FareDiscounts": [],
+          "RBD": "K",
+          "FareGroup": "Flex"
+        },
+        {
+          "SeatsAvailable": 9,
+          "PricesByPassengerType": [
+            {
+              "TotalPassengers": 2,
+              "Taxes": 10.3455,
+              "PassengerType": {
+                "Code": "ADT"
+              },
+              "Price": 246.05
+            }
+          ],
+          "FareClass": "BDENNA:CLUBEXPRESS:CLUBEXPRESS",
+          "FareFamily": "TFLECOM",
+          "TotalTaxes": 20.691,
+          "TotalPrice": 492.1,
+          "FareDiscounts": [],
+          "RBD": "B",
+          "FareGroup": "Flex"
+        },
+        {
+          "SeatsAvailable": 3,
+          "PricesByPassengerType": [
+            {
+              "TotalPassengers": 2,
+              "Taxes": 8.712,
+              "PassengerType": {
+                "Code": "ADT"
+              },
+              "Price": 266.4
+            }
+          ],
+          "FareClass": "DDENNA:CLUBEXPRESS:CLUBEXPRESS",
+          "FareFamily": "BSFECOM",
+          "TotalTaxes": 17.424,
+          "TotalPrice": 532.8,
+          "FareDiscounts": [],
+          "RBD": "D",
+          "FareGroup": "Business"
+        }
+      ],
+      "DepartureDate": "2018-05-31T13:05:00",
+      "ArrivalDate": "2018-05-31T14:15:00"
+    },
+    {
+      "DepartureAirport": "SVQ",
+      "Index": 1,
+      "ArrivalAirport": "MAD",
+      "ArrivalCityCode": "MAD",
+      "DepartureCityCode": "SVQ",
+      "Segments": [
+        {
+          "DepartureAirport": "SVQ",
+          "ArrivalAirport": "MAD",
+          "OperatorAirline": "I2",
+          "FlightNumber": "3951",
+          "DepartureDate": "2018-05-31T17:40:00",
+          "ArrivalDate": "2018-05-31T18:45:00"
+        }
+      ],
+      "Fares": [
+        {
+          "SeatsAvailable": 4,
+          "PricesByPassengerType": [
+            {
+              "TotalPassengers": 2,
+              "Taxes": 10.89,
+              "PassengerType": {
+                "Code": "ADT"
+              },
+              "Price": 73
+            }
+          ],
+          "FareClass": "ZDENNA4K",
+          "FareFamily": "TBAESES",
+          "TotalTaxes": 21.78,
+          "TotalPrice": 146,
+          "FareDiscounts": [],
+          "RBD": "Z",
+          "FareGroup": "Express"
+        },
+        {
+          "SeatsAvailable": 4,
+          "PricesByPassengerType": [
+            {
+              "TotalPassengers": 2,
+              "Taxes": 10.89,
+              "PassengerType": {
+                "Code": "ADT"
+              },
+              "Price": 88
+            }
+          ],
+          "FareClass": "ZDENNA",
+          "FareFamily": "TCLESES",
+          "TotalTaxes": 21.78,
+          "TotalPrice": 176,
+          "FareDiscounts": [],
+          "RBD": "Z",
+          "FareGroup": "Classic"
+        },
+        {
+          "SeatsAvailable": 2,
+          "PricesByPassengerType": [
+            {
+              "TotalPassengers": 2,
+              "Taxes": 10.89,
+              "PassengerType": {
+                "Code": "ADT"
+              },
+              "Price": 153
+            }
+          ],
+          "FareClass": "IDE7RA",
+          "FareFamily": "BSFESPT",
+          "TotalTaxes": 21.78,
+          "TotalPrice": 306,
+          "FareDiscounts": [],
+          "RBD": "I",
+          "FareGroup": "BusinessExpress"
+        },
+        {
+          "SeatsAvailable": 9,
+          "PricesByPassengerType": [
+            {
+              "TotalPassengers": 2,
+              "Taxes": 10.89,
+              "PassengerType": {
+                "Code": "ADT"
+              },
+              "Price": 209
+            }
+          ],
+          "FareClass": "KDENNA",
+          "FareFamily": "TFLESES",
+          "TotalTaxes": 21.78,
+          "TotalPrice": 418,
+          "FareDiscounts": [],
+          "RBD": "K",
+          "FareGroup": "Flex"
+        },
+        {
+          "SeatsAvailable": 9,
+          "PricesByPassengerType": [
+            {
+              "TotalPassengers": 2,
+              "Taxes": 10.89,
+              "PassengerType": {
+                "Code": "ADT"
+              },
+              "Price": 259
+            }
+          ],
+          "FareClass": "BDENNA",
+          "FareFamily": "TFLECOM",
+          "TotalTaxes": 21.78,
+          "TotalPrice": 518,
+          "FareDiscounts": [],
+          "RBD": "B",
+          "FareGroup": "Flex"
+        },
+        {
+          "SeatsAvailable": 2,
+          "PricesByPassengerType": [
+            {
+              "TotalPassengers": 2,
+              "Taxes": 10.89,
+              "PassengerType": {
+                "Code": "ADT"
+              },
+              "Price": 333
+            }
+          ],
+          "FareClass": "DDENNA",
+          "FareFamily": "BSFECOM",
+          "TotalTaxes": 21.78,
+          "TotalPrice": 666,
+          "FareDiscounts": [],
+          "RBD": "D",
+          "FareGroup": "Business"
+        },
+        {
+          "SeatsAvailable": 4,
+          "PricesByPassengerType": [
+            {
+              "TotalPassengers": 2,
+              "Taxes": 8.1675,
+              "PassengerType": {
+                "Code": "ADT"
+              },
+              "Price": 54.75
+            }
+          ],
+          "FareClass": "ZDENNA4K:CLUBEXPRESS:CLUBEXPRESS",
+          "FareFamily": "TBAESES",
+          "TotalTaxes": 16.335,
+          "TotalPrice": 109.5,
+          "FareDiscounts": [],
+          "RBD": "Z",
+          "FareGroup": "Express"
+        },
+        {
+          "SeatsAvailable": 4,
+          "PricesByPassengerType": [
+            {
+              "TotalPassengers": 2,
+              "Taxes": 10.3455,
+              "PassengerType": {
+                "Code": "ADT"
+              },
+              "Price": 83.6
+            }
+          ],
+          "FareClass": "ZDENNA:CLUBEXPRESS:CLUBEXPRESS",
+          "FareFamily": "TCLESES",
+          "TotalTaxes": 20.691,
+          "TotalPrice": 167.2,
+          "FareDiscounts": [],
+          "RBD": "Z",
+          "FareGroup": "Classic"
+        },
+        {
+          "SeatsAvailable": 2,
+          "PricesByPassengerType": [
+            {
+              "TotalPassengers": 2,
+              "Taxes": 8.712,
+              "PassengerType": {
+                "Code": "ADT"
+              },
+              "Price": 122.4
+            }
+          ],
+          "FareClass": "IDE7RA:CLUBEXPRESS:CLUBEXPRESS",
+          "FareFamily": "BSFESPT",
+          "TotalTaxes": 17.424,
+          "TotalPrice": 244.8,
+          "FareDiscounts": [],
+          "RBD": "I",
+          "FareGroup": "BusinessExpress"
+        },
+        {
+          "SeatsAvailable": 9,
+          "PricesByPassengerType": [
+            {
+              "TotalPassengers": 2,
+              "Taxes": 10.3455,
+              "PassengerType": {
+                "Code": "ADT"
+              },
+              "Price": 198.55
+            }
+          ],
+          "FareClass": "KDENNA:CLUBEXPRESS:CLUBEXPRESS",
+          "FareFamily": "TFLESES",
+          "TotalTaxes": 20.691,
+          "TotalPrice": 397.1,
+          "FareDiscounts": [],
+          "RBD": "K",
+          "FareGroup": "Flex"
+        },
+        {
+          "SeatsAvailable": 9,
+          "PricesByPassengerType": [
+            {
+              "TotalPassengers": 2,
+              "Taxes": 10.3455,
+              "PassengerType": {
+                "Code": "ADT"
+              },
+              "Price": 246.05
+            }
+          ],
+          "FareClass": "BDENNA:CLUBEXPRESS:CLUBEXPRESS",
+          "FareFamily": "TFLECOM",
+          "TotalTaxes": 20.691,
+          "TotalPrice": 492.1,
+          "FareDiscounts": [],
+          "RBD": "B",
+          "FareGroup": "Flex"
+        },
+        {
+          "SeatsAvailable": 2,
+          "PricesByPassengerType": [
+            {
+              "TotalPassengers": 2,
+              "Taxes": 8.712,
+              "PassengerType": {
+                "Code": "ADT"
+              },
+              "Price": 266.4
+            }
+          ],
+          "FareClass": "DDENNA:CLUBEXPRESS:CLUBEXPRESS",
+          "FareFamily": "BSFECOM",
+          "TotalTaxes": 17.424,
+          "TotalPrice": 532.8,
+          "FareDiscounts": [],
+          "RBD": "D",
+          "FareGroup": "Business"
+        }
+      ],
+      "DepartureDate": "2018-05-31T17:40:00",
+      "ArrivalDate": "2018-05-31T18:45:00"
+    },
+    {
+      "DepartureAirport": "SVQ",
+      "Index": 0,
+      "ArrivalAirport": "MAD",
+      "ArrivalCityCode": "MAD",
+      "DepartureCityCode": "SVQ",
+      "Segments": [
+        {
+          "DepartureAirport": "SVQ",
+          "ArrivalAirport": "MAD",
+          "OperatorAirline": "I2",
+          "FlightNumber": "3953",
+          "DepartureDate": "2018-05-31T20:40:00",
+          "ArrivalDate": "2018-05-31T21:45:00"
+        }
+      ],
+      "Fares": [
+        {
+          "SeatsAvailable": 7,
+          "PricesByPassengerType": [
+            {
+              "TotalPassengers": 2,
+              "Taxes": 10.89,
+              "PassengerType": {
+                "Code": "ADT"
+              },
+              "Price": 13
+            }
+          ],
+          "FareClass": "ADENNA4K",
+          "FareFamily": "TBAESES",
+          "TotalTaxes": 21.78,
+          "TotalPrice": 26,
+          "FareDiscounts": [],
+          "RBD": "A",
+          "FareGroup": "Express"
+        },
+        {
+          "SeatsAvailable": 7,
+          "PricesByPassengerType": [
+            {
+              "TotalPassengers": 2,
+              "Taxes": 10.89,
+              "PassengerType": {
+                "Code": "ADT"
+              },
+              "Price": 28
+            }
+          ],
+          "FareClass": "ADENNA",
+          "FareFamily": "TCLESES",
+          "TotalTaxes": 21.78,
+          "TotalPrice": 56,
+          "FareDiscounts": [],
+          "RBD": "A",
+          "FareGroup": "Classic"
+        },
+        {
+          "SeatsAvailable": 2,
+          "PricesByPassengerType": [
+            {
+              "TotalPassengers": 2,
+              "Taxes": 10.89,
+              "PassengerType": {
+                "Code": "ADT"
+              },
+              "Price": 153
+            }
+          ],
+          "FareClass": "IDE7RA",
+          "FareFamily": "BSFESPT",
+          "TotalTaxes": 21.78,
+          "TotalPrice": 306,
+          "FareDiscounts": [],
+          "RBD": "I",
+          "FareGroup": "BusinessExpress"
+        },
+        {
+          "SeatsAvailable": 9,
+          "PricesByPassengerType": [
+            {
+              "TotalPassengers": 2,
+              "Taxes": 10.89,
+              "PassengerType": {
+                "Code": "ADT"
+              },
+              "Price": 209
+            }
+          ],
+          "FareClass": "KDENNA",
+          "FareFamily": "TFLESES",
+          "TotalTaxes": 21.78,
+          "TotalPrice": 418,
+          "FareDiscounts": [],
+          "RBD": "K",
+          "FareGroup": "Flex"
+        },
+        {
+          "SeatsAvailable": 9,
+          "PricesByPassengerType": [
+            {
+              "TotalPassengers": 2,
+              "Taxes": 10.89,
+              "PassengerType": {
+                "Code": "ADT"
+              },
+              "Price": 259
+            }
+          ],
+          "FareClass": "BDENNA",
+          "FareFamily": "TFLECOM",
+          "TotalTaxes": 21.78,
+          "TotalPrice": 518,
+          "FareDiscounts": [],
+          "RBD": "B",
+          "FareGroup": "Flex"
+        },
+        {
+          "SeatsAvailable": 9,
+          "PricesByPassengerType": [
+            {
+              "TotalPassengers": 2,
+              "Taxes": 10.89,
+              "PassengerType": {
+                "Code": "ADT"
+              },
+              "Price": 333
+            }
+          ],
+          "FareClass": "DDENNA",
+          "FareFamily": "BSFECOM",
+          "TotalTaxes": 21.78,
+          "TotalPrice": 666,
+          "FareDiscounts": [],
+          "RBD": "D",
+          "FareGroup": "Business"
+        },
+        {
+          "SeatsAvailable": 7,
+          "PricesByPassengerType": [
+            {
+              "TotalPassengers": 2,
+              "Taxes": 8.1675,
+              "PassengerType": {
+                "Code": "ADT"
+              },
+              "Price": 9.75
+            }
+          ],
+          "FareClass": "ADENNA4K:CLUBEXPRESS:CLUBEXPRESS",
+          "FareFamily": "TBAESES",
+          "TotalTaxes": 16.335,
+          "TotalPrice": 19.5,
+          "FareDiscounts": [],
+          "RBD": "A",
+          "FareGroup": "Express"
+        },
+        {
+          "SeatsAvailable": 7,
+          "PricesByPassengerType": [
+            {
+              "TotalPassengers": 2,
+              "Taxes": 10.3455,
+              "PassengerType": {
+                "Code": "ADT"
+              },
+              "Price": 26.6
+            }
+          ],
+          "FareClass": "ADENNA:CLUBEXPRESS:CLUBEXPRESS",
+          "FareFamily": "TCLESES",
+          "TotalTaxes": 20.691,
+          "TotalPrice": 53.2,
+          "FareDiscounts": [],
+          "RBD": "A",
+          "FareGroup": "Classic"
+        },
+        {
+          "SeatsAvailable": 2,
+          "PricesByPassengerType": [
+            {
+              "TotalPassengers": 2,
+              "Taxes": 8.712,
+              "PassengerType": {
+                "Code": "ADT"
+              },
+              "Price": 122.4
+            }
+          ],
+          "FareClass": "IDE7RA:CLUBEXPRESS:CLUBEXPRESS",
+          "FareFamily": "BSFESPT",
+          "TotalTaxes": 17.424,
+          "TotalPrice": 244.8,
+          "FareDiscounts": [],
+          "RBD": "I",
+          "FareGroup": "BusinessExpress"
+        },
+        {
+          "SeatsAvailable": 9,
+          "PricesByPassengerType": [
+            {
+              "TotalPassengers": 2,
+              "Taxes": 10.3455,
+              "PassengerType": {
+                "Code": "ADT"
+              },
+              "Price": 198.55
+            }
+          ],
+          "FareClass": "KDENNA:CLUBEXPRESS:CLUBEXPRESS",
+          "FareFamily": "TFLESES",
+          "TotalTaxes": 20.691,
+          "TotalPrice": 397.1,
+          "FareDiscounts": [],
+          "RBD": "K",
+          "FareGroup": "Flex"
+        },
+        {
+          "SeatsAvailable": 9,
+          "PricesByPassengerType": [
+            {
+              "TotalPassengers": 2,
+              "Taxes": 10.3455,
+              "PassengerType": {
+                "Code": "ADT"
+              },
+              "Price": 246.05
+            }
+          ],
+          "FareClass": "BDENNA:CLUBEXPRESS:CLUBEXPRESS",
+          "FareFamily": "TFLECOM",
+          "TotalTaxes": 20.691,
+          "TotalPrice": 492.1,
+          "FareDiscounts": [],
+          "RBD": "B",
+          "FareGroup": "Flex"
+        },
+        {
+          "SeatsAvailable": 9,
+          "PricesByPassengerType": [
+            {
+              "TotalPassengers": 2,
+              "Taxes": 8.712,
+              "PassengerType": {
+                "Code": "ADT"
+              },
+              "Price": 266.4
+            }
+          ],
+          "FareClass": "DDENNA:CLUBEXPRESS:CLUBEXPRESS",
+          "FareFamily": "BSFECOM",
+          "TotalTaxes": 17.424,
+          "TotalPrice": 532.8,
+          "FareDiscounts": [],
+          "RBD": "D",
+          "FareGroup": "Business"
+        }
+      ],
+      "DepartureDate": "2018-05-31T20:40:00",
+      "ArrivalDate": "2018-05-31T21:45:00"
+    }
+  ],
+  "AvailabilityResponse_Provider": "I2.FlightsAvailabilityServices.App.BFM.BFMFlightsAvailabilityService",
+  "AvailabilityResponse_UtcTimeStamp": "2018-05-16T09:22:57.8115532Z",
+  "AvailabilityResponse_Guid": "47bd5264-8999-4ed3-bed4-b00116295bf3",
+  "AvailabilityResponse_RequestId": "5cadcabd-f1be-410a-a9ec-d7c24bdce3cc",
+  "AvailabilityResponse_CurrencyCode": "EUR",
+  "AvailabilityResponse_ExceptionType": null
+,
+  "BookingPaymentEvent_CreditCardFeePercentage": 2,
+  "BookingPaymentEvent_NetPlusIs3DSecure": false,
+  "BookingPaymentEvent_PaymentSource": "Booking",
+  "BookingPaymentEvent_CreditCardFeeAmount": 8.65,
+  "BookingPaymentEvent_NetPlusPaymentStatusDescription": null,
+  "BookingPaymentEvent_NetPlusResolutorData": null,
+  "BookingPaymentEvent_CreditCardHolder": "almudena gomez",
+  "BookingPaymentEvent_PaypalToken": null,
+  "BookingPaymentEvent_ErrorMessage": null,
+  "BookingPaymentEvent_BookingId": "09de73ee-f8dc-427d-94f1-73ffb427bcba",
+  "BookingPaymentEvent_CreditCardType": "MasterCardCredit",
+  "BookingPaymentEvent_PromoCode": "CLUBEXPRESS",
+  "BookingPaymentEvent_CurrencyCode": "EUR",
+  "BookingPaymentEvent_IsOnHold": false,
+  "BookingPaymentEvent_PromoClubExpressUser": "jose.garcia@birchmangroup.com",
+  "BookingPaymentEvent_TotalAmount": 501.81,
+  "BookingPaymentEvent_DisplayCurrencyCode": "EUR",
+  "BookingPaymentEvent_IssueOnlineOkWithTickets": false,
+  "BookingPaymentEvent_CreditCardMonth": 3,
+  "BookingPaymentEvent_PromoAmount": 60.43,
+  "BookingPaymentEvent_Pnr": "KVIGY2",
+  "BookingPaymentEvent_UtcTimeStamp": "2018-05-16T09:41:28.0274345Z",
+  "BookingPaymentEvent_NetPlusTransactionId": null,
+  "BookingPaymentEvent_TimeElapsedMilliseconds": 58790,
+  "BookingPaymentEvent_PromoOutboundBehaviorId": 30460,
+  "BookingPaymentEvent_PromoResponse": "Sucess",
+  "BookingPaymentEvent_NetPlusNNPOperationNumber": 0,
+  "BookingPaymentEvent_PaypalPayerId": null,
+  "BookingPaymentEvent_ContactMail": "test@test.com",
+  "BookingPaymentEvent_PaypalTransactionId": null,
+  "BookingPaymentEvent_CreditCardYear": 19,
+  "BookingPaymentEvent_VoucherCode": null,
+  "BookingPaymentEvent_NetPlusTransactionDate": null,
+  "BookingPaymentEvent_MondialContractNumber": null,
+  "BookingPaymentEvent_Success": true,
+  "BookingPaymentEvent_VoucherAmount": 0,
+  "BookingPaymentEvent_NetPlusPaymentStatus": null,
+  "BookingPaymentEvent_NetPlusAuthorizationNumber": null,
+  "BookingPaymentEvent_CreditCardHiddenLastNumber": "************2550",
+  "BookingPaymentEvent_PromoReturnBehaviorId": 96815,
+  "BookingPaymentEvent_Guid": "cbd128b9-ebbd-499b-91a9-2b5b11522bb0"
+}
